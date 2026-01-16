@@ -1,15 +1,13 @@
 // Assets Page - TO BE IMPLEMENTED BY CANDIDATE
 // This is a basic placeholder structure
 
+import AssetsListTable from "../components/AssetsListTable"
+
 const Assets = () => {
   return (
     <div>
-      <h1 className="text-3xl font-bold mb-6">Assets</h1>
-      <div className="bg-white p-6 rounded-lg shadow">
-        <p className="text-gray-600">
-          Assets page implementation goes here. Check the assessment instructions for requirements.
-        </p>
-      </div>
+      <h1 className="text-3xl font-bold mb-6 text-gray-900 dark:text-white">💹 Assets</h1>
+      <AssetsListTable />
     </div>
   )
 }
